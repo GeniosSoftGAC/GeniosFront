@@ -1,2 +1,3 @@
 # GeniosFront
-Front End Prototypes for SoftGAC App
+
+Prototipos en código estático para las interfaces de la aplicación Genios SoftGAC

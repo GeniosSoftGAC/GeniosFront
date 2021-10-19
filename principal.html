@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="static/styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
   <title>GENIOS APRENDE JUGANDO</title>
+  <script src="static/script.js" defer></script>
 </head>
 
 <body>
@@ -43,14 +44,47 @@
     <div class="hero-info">
       <h1 class="hero-info__title">GENIOS APRENDE JUGANDO</h1>
       <p class="hero-info__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-      <button class="button">Ver catálogo</button>
+      <form>
+        <button formaction="/catalogo.html" class="button">Ver catálogo</button>
+      </form>
     </div>
     <img src="images/heroImage.png" alt="hero image" class="hero-image">
   </header>
 
 
+  <footer class="footer">
+    <div class="brand">
+      <img class="logo" src="images/logo.svg" alt="logo">
+      <h2>GENIOS APRENDE JUGANDO</h2>
+    </div>
 
-  <script src="static/script.js"></script>
+    <div class="contact-box">
+      <ul>
+        <li>
+          <i class="fas fa-phone-square-alt"></i>
+          555-555-555
+        </li>
+        <li>
+          <i class="fas fa-map-marker-alt"></i>
+          Kra 25 a55-B
+        </li>
+        <li>
+          <i class="fas fa-envelope"></i>
+          genios@aprende.com
+        </li>
+      </ul>
+    </div>
+
+    <div class="social-box">
+      <a href="#">
+        <i class="fab fa-facebook-square"></i>
+      </a>
+
+      <a href="#">
+        <i class="fab fa-instagram-square"></i>
+      </a>
+    </div>
+  </footer>
 
 </body>
 
