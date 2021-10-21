@@ -5,11 +5,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="static/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <title>Genios Catalogo</title>
+    <script src="static/products.js" defer></script>
 </head>
 
 <body>
+    <nav class="navbar">
+        <div class="brand">
+            <img class="logo" src="images/logo.svg" alt="logo">
+            <h2>GENIOS</h2>
+            <p>catalogo</p>
+        </div>
+    </nav>
+
+    <header class="shop-header">
+        <div class="category-filter">
+            <i class="fa fa-arrow-down"></i>
+            <label for="categoria">Categoría</label>
+            <select name="categoria" id="categoria">
+                <option value="juguetes">Juguetes</option>
+                <option value="muebles">Muebles</option>
+                <option value="juegos">Juegos</option>
+            </select>
+        </div>
+
+        <div class="search-bar">
+            <i class="fa fa-search"></i>
+            <input type="text" name="search" id="search" placeholder="search">
+        </div>
+
+    </header>
+
+    <div class="product-grid">
+    </div>
+    <!--<div class="product-grid">
+        <div class="product-card">
+
+            <div style=" background-image: url('https://source.unsplash.com/collection/190727/1600x900')"
+                class="product-card__image"></div>
+
+            <div class="product-info">
+                <div>
+                    <h2 class="product-name">Product name</h2>
+                    <p class="product-price"><strong>price:</strong> 30000$</p>
+                </div>
+                <div class="shopping-add">
+                    <i class="fa fa-shopping-cart"></i>
+                </div>
+            </div>
+
+
+        </div>
+    </div>-->
 
 </body>
+
+
 
 </html>
