@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="static/styles.css">
+    <title>Formulario De Compra</title>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="brand">
+            <img class="logo" src="images/logo.svg" alt="logo">
+            <h2>GENIOS</h2>
+            <p>Compra</p>
+        </div>
+        <div class="menu">
+            <a href="/catalogo.html"><i class="fas fa-chevron-left"></i>atrás</a>
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <section class="checkout-form">
+        <h1 class="checkout-form__title">Información de Contacto</h1>
+
+        <form action="return false">
+            <div class="form-input">
+                <label for="name">Nombre Completo</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div class="form-input">
+                <label for="email">Correo Electrónico</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="form-input">
+                <label for="phone">Número de celular</label>
+                <input type="text" name="phone" id="phone">
+            </div>
+            <div class="form-input">
+                <label for="address">Dirección</label>
+                <input type="text" name="address" id="address">
+            </div>
+            <div class="form-input form-place">
+                <label>Lugar de Residencia</label>
+                <div class="form-place__state">
+                    <select name="place" id="place">
+                        <option value="" disabled selected>Departamento</option>
+                        <option value="cundinamarca">Cundinamarca</option>
+                        <option value="valle">Valle</option>
+                        <option value="cauca">Cauca</option>
+                        <option value="antioquia">Antioquia</option>
+                    </select>
+                </div>
+                <div class="form-place__city">
+                    <select name="city" id="city">
+                        <option value="" disabled selected>Ciudad</option>
+                        <option value="bogota">Bogotá</option>
+                        <option value="cali">Cali</option>
+                        <option value="popayan">Cauca</option>
+                        <option value="medellin">Medellín</option>
+                    </select>
+                </div>
+            </div>
+            <button class="checkout-button compact-height">Elegir método de pago <i
+                    class="fas fa-chevron-right"></i></button>
+        </form>
+    </section>
+</body>
+
+</html>
