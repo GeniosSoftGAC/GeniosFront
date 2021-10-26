@@ -157,6 +157,13 @@ a {
   width: 80%;
 }
 
+/*Principal*/
+
+ul.provisional-list {
+  display: flex;
+  flex-direction: column;
+}
+
 /* Footer */
 
 .footer {

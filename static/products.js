@@ -42,7 +42,7 @@ const fetchImage = async () => {
 const productGrid = document.querySelector('.product-grid')
 
 // Usanfo la función fetch para demo.
-products.forEach((product) => {
+products.forEach((product, id) => {
   fetchImage().then((image) => {
     product.image = `${image}`
     const productCard = /* html */ `
@@ -60,7 +60,7 @@ products.forEach((product) => {
                 ${product.price}
               </p>
             </div>
-            <div class="shopping-add">
+            <div class="shopping-add" id="${id}">
               <i class="fa fa-cart-plus"></i>
             </div>
           </div>
