@@ -1,8 +1,9 @@
 import { products } from './productList.js'
 
+// Imagen aleatoria
 const fetchImage = async () => {
   const response = await fetch(
-    `https://source.unsplash.com/collection/190727/1600x900`,
+    `https://source.unsplash.com/collection/2280551/toys`,
   )
   const image = await response.url
   return image
@@ -10,11 +11,16 @@ const fetchImage = async () => {
 
 export const productGrid = document.querySelector('.product-grid')
 
-// Usanfo la función fetch para demo.
+// Usando la función fetch para demo.
 products.forEach((product, id) => {
   fetchImage().then((image) => {
     product.image = `${image}`
-    const productCard = /* html */ `
+    createProductCard(product, id)
+  })
+})
+
+function createProductCard(product, id) {
+  const productCard = /* html */ `
         <div class="product-card">
           <div
             style=" background-image: url('${product.image}')"
@@ -35,6 +41,5 @@ products.forEach((product, id) => {
           </div>
         </div>
     `
-    productGrid.innerHTML += productCard
-  })
-})
+  productGrid.innerHTML += productCard
+}
