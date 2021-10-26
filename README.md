@@ -11,3 +11,5 @@ Se ha creado una pequeña mascara de comandos con Makefile
 
     make setup : instalar dependencia browser-sync
     make dev : crear un server local para visualizar el proyecto
+
+[link a página de visualización](https://geniossoftgac.github.io/GeniosFront/index.html)
