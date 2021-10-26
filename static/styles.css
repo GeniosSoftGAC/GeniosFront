@@ -380,6 +380,9 @@ ul.provisional-list {
 }
 
 /* Shopping Cart List */
+.shopping-cart__list--body {
+  overflow: auto;
+}
 
 .cart-list__card {
   padding: 1rem;
