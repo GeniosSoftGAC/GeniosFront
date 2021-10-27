@@ -296,7 +296,7 @@ ul.provisional-list {
 .product-grid {
   padding: 1rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   grid-gap: 1rem;
 }
 
@@ -307,8 +307,7 @@ ul.provisional-list {
   padding: 1rem;
   border: 1px solid rgba(227, 227, 227, 1);
   border-radius: 5px;
-  max-width: 400px;
-  min-width: 100%;
+  max-width: 100%;
 }
 
 .product-card__image {
@@ -390,8 +389,8 @@ ul.provisional-list {
   display: grid;
   grid-template-rows: 1fr 5fr 1fr;
   right: 0;
-  max-width: 35%;
   min-width: 300px;
+  width: 30%;
   height: 100%;
   background: white;
   animation-name: slide-in;
