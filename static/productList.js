@@ -1,31 +1,36 @@
 export const products = [
   {
-    name: 'Producto 1',
-    image: '',
+    name: 'Carrito',
+    image: './images/carritoMadera.jpg',
     price: 20000,
   },
   {
-    name: 'Producto 2',
+    name: 'Xmen',
     image: '',
     price: 50000,
   },
   {
-    name: 'Producto 3',
+    name: 'Casita',
     image: '',
     price: 90000,
   },
   {
-    name: 'Producto 4',
+    name: 'Optimus',
     image: '',
     price: 150000,
   },
   {
-    name: 'Producto 5',
+    name: 'Spiderman',
     image: '',
     price: 250000,
   },
   {
-    name: 'Producto 6',
+    name: 'Mario Bros',
+    image: '',
+    price: 260000,
+  },
+  {
+    name: 'Mario Bros',
     image: '',
     price: 260000,
   },
