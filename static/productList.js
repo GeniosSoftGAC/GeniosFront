@@ -5,8 +5,8 @@ export const products = [
     price: 20000,
   },
   {
-    name: 'Xmen',
-    image: '',
+    name: 'Trensito',
+    image: './images/Trensito.jpg',
     price: 50000,
   },
   {
