@@ -541,3 +541,34 @@ input#quantity {
   grid-column: 2;
   grid-row: 2
 }
+
+/* Payment selection */
+
+.payment-title {
+  justify-self: start;
+  padding-left: 2rem;
+}
+
+.payment-title>h1 {
+  font-size: 2rem;
+}
+
+.payment-container {
+  display: grid;
+  grid-gap: 1rem;
+}
+
+.payment-method {
+  display: inherit;
+  grid-gap: 0.5rem;
+  justify-items: center;
+}
+
+.payment-method>h2 {
+  font-size: 1.1rem;
+  color: #4B72FE;
+}
+
+.payment-method>img {
+  cursor: pointer;
+}
