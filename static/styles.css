@@ -142,7 +142,7 @@ a {
   place-items: center;
   grid-template-columns: var(--responsive-grid);
   grid-gap: 1rem;
-  padding: 2rem;
+  padding: 6rem 2rem;
   height: min-content;
 }
 
