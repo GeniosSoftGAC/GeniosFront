@@ -1,0 +1,20 @@
+{
+  "name": "GeniosFront",
+  "version": "1.1.0",
+  "description": "Prototipos en código estático para las interfaces de la aplicación Genios SoftGAC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeniosSoftGAC/GeniosFront.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GeniosSoftGAC/GeniosFront/issues"
+  },
+  "homepage": "https://github.com/GeniosSoftGAC/GeniosFront#readme"
+}
